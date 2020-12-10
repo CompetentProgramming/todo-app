@@ -94,6 +94,12 @@ h1 {
     position: relative;
 }
 
+.add-new-item label {
+    display: block;
+    width: 100%;
+    margin: 4px 0 0 47px;
+}
+
 .add-new-item #addItem {
     background: transparent;
     color: var(--font-color);
@@ -102,7 +108,6 @@ h1 {
     width: 100%;
     height: 50px;
     font: 400 18px/1 'Josefin Sans', sans-serf;
-    margin: 4px 0 0 47px;
     letter-spacing: -0.3px;
 }
 
@@ -299,10 +304,13 @@ ul li:hover .remove {
         margin-bottom: 17px;
     }
 
+    .add-new-item label {
+        margin: 2px 0 0 25px;
+    }
+
     .add-new-item #addItem {
         height: 37px;
         font-size: 12px;
-        margin: 2px 0 0 25px;
         letter-spacing: -0.1px;
     }
 
