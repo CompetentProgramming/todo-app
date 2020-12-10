@@ -258,6 +258,9 @@ ul li:hover .remove {
 .clear {
     color: var(--font-color);
     cursor: pointer;
+    font-weight: 400;
+    margin: 0;
+    font-size: .8rem;
 }
 
 .clear:hover {
@@ -271,6 +274,8 @@ ul li:hover .remove {
     bottom: -63px;
     text-align: center;
     font-size: 0.8rem;
+    margin: 0;
+    font-weight: 400;
 }
 
 
