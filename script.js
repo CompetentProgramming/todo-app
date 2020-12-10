@@ -34,7 +34,7 @@ function createNewTodoItem(text) {
         <span class="checkmark"></span>
         <span class="text">${text}</span>
     </label>
-    <button class="remove"></button>
+    <button class="remove" name="remove"></button>
     `;
     
     if (document.querySelector('.filter input[type="radio"]:checked').id === 'completed') {
